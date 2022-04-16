@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your search for music ends here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="SongList">
+        <h1>BEST OF SRK-King Khan</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="cover/cover1.jpg" alt="1">
+                <span class="songName">Chaiya Chaiya</span>
+                <span class="songlistplay"><span class="timestamp">06:57<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover/cover2.jpg" alt="1">
+                <span class="songName">Baadshah O Baadshah</span>
+                <span class="songlistplay"><span class="timestamp">06:40<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover/cover3.jpg" alt="1">
+                <span class="songName">Main Koi Aisa Geet Gaon</span>
+                <span class="songlistplay"><span class="timestamp">05:17<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover/cover4.jpg" alt="1">
+                <span class="songName">Ye Kaali Kaali Aankhen</span>
+                <span class="songlistplay"><span class="timestamp">07:53<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover/cover5.jpg" alt="1">
+                <span class="songName">Apun Bola</span>
+                <span class="songlistplay"><span class="timestamp">04:26<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="SongBanner"></div>
+</div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
+        <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+        <img src="playing.gif" width="42px" alt="" id="gif" ><span id='masterSongName'>Chaiya Chaiya</span>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2d1d57819f.js" crossorigin="anonymous"></script>
+</body>
+</html>
